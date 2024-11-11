@@ -1,33 +1,87 @@
 body{
-    font-size: medium;
-    color: black;
-    background-color: #F5F5DC;
+  font-size: medium;
+  color: black;
+  background-color: #F5F5DC;
 }
 .banner{
-    text-align: start;
-    font-style: italic;
-    background-color: red;
-    font-size: xx-large;
-    color: black;
-    height: 45px;
-    background-size: cover;
+  border-color: black;
+  border-style: solid;
+  border-width: 3.5px; 
+  font-style: italic;
+  background-color: #063e06d9;
+  font-size: xx-large;
+  color: white;
+  height: 45px;
+  background-size: cover;
+  text-align: center;
 }
 
 .heading{
-    text-align: center;
+  text-align: center;
+  font-style: italic;
 }
 
 .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.paragraph{
+  text-align: center;
+}
+
+.preformatted{
+  display: inline-block;
+  text-align: left;
+  width: 1300px;
+  background-color: #063e06d9;
+  border-color: black;
+  border-style: solid;
+  border-width: 3.5px;
+  border-radius: 40px;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+}
+
+
+ul {
+  width: 380px;
+  background-color: #063e06d9;
+  border-color: black;
+  border-style: solid;
+  border-width: 3.5px;
+  border-radius: 40px;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+}
+
+
+.ingredients{
+  text-align: center;
+  color: white;
+}
+
+.instruction{
+  text-align: center;
+  color: white;
+}
+
+li::marker{
+  color: white;
+}
+
+/* .divLeftAligned{
+  display: inline-block;
+  text-align: left;
+} */
+
+  /* .paragraph {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
-
-  .paragraph{
-    text-align: center;
-  }
-
-  .preformatted{
-    text-align: center;
-  }
+  } */
