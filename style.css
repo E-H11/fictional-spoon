@@ -13,7 +13,7 @@ body{
   color: white;
   height: 45px;
   background-size: cover;
-  text-align: center;
+  padding: 5px;
 }
 
 .heading{
@@ -26,6 +26,10 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 3.5px;
+  border-color: #F5F5DC;
 }
 
 .paragraph{
@@ -73,15 +77,3 @@ ul {
 li::marker{
   color: white;
 }
-
-/* .divLeftAligned{
-  display: inline-block;
-  text-align: left;
-} */
-
-  /* .paragraph {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  } */
